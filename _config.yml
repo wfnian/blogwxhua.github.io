@@ -13,19 +13,19 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: wfnian
+title: Snowsnowflake21
 description: > # this means to ignore newlines until "baseurl:"
   <b>点击左上"☰"菜单或轻滑屏幕左侧查看更多</b>.
 baseurl: ""
-url: "https://wfnian.com/"
+url: "https://wxhua.com/"
 permalink: /:year/:month/:day/:title
-repository: wfnian/blogwfnian.github.io
+repository: wfnian/blogwxhua.github.io
 paginate: 4
 
 # MatJek specific configurations
 github_profile: "https://github.com/wfnian"
-user: "wfnian"
-user_email: "wfnian@gmail.com"
+user: "Snowsnowflake21"
+user_email: "wxhua@gmail.com"
 
 # Build settings
 markdown: kramdown
