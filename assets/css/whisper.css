@@ -12,6 +12,20 @@ p.pp{
     font-size: 17px;
     text-align: justify;
 }
+p.hh{
+    text-indent: 2em;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: #ff6666;
+    background: #fff6f6;
+    box-shadow: #e5e5e5 -1px 5px 7px;
+    letter-spacing: 1.5px;
+    padding: 1em;
+    color: #3f3e3f;
+    box-sizing: border-box;
+    font-size: 17px;
+    text-align: justify;
+}
 
 fold-title{
     display:flex;
