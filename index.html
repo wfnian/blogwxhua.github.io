@@ -3,14 +3,25 @@ layout: page
 css: ["index.css"]
 ---
 <script>
+  function load() {
+    if (md5(location.href.split('?')[1]) != "e833e042f509c996b1b25324d56659fb")
+      window.location.href = "{{site.baseurl}}"
+  }
+</script>
+
+<script>
   function Alarm() {
-    var txt;
-    var person = prompt("输\n入\n密\n码\n哟\n", "四位哟");
-    if (person != "0224") {
-      window.location.href = "https://www.baidu.com"
-    } else {
-      ;
-    }
+    if (location.href.split('?')[1] != "huahua")
+      window.location.href = "verify.html"
+
+
+    // var txt;
+    // var person = prompt("输\n入\n密\n码\n哟\n", "四位哟");
+    // if (person != "0224") {
+    //   window.location.href = "https://www.baidu.com"
+    // } else {
+    //   ;
+    // }
   }
 </script>
 
